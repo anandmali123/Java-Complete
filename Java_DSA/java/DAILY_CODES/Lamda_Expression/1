@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+interface Core2web{
+	void lang();
+}
+class Year2022{
+	public static void main(String[] args){
+		Core2web c2w=new Core2web(){
+			System.out.println("Anand Dnyaneshwar Mali");
+		};
+		c2w.lang();
+		core2web c2w1=()->{
+			System.out.println("IN lamda Expression");
+		};
+
+	}
+}
+}
+
